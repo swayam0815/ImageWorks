@@ -29,9 +29,9 @@ const SideBar = () => {
                 return (
                   <li
                     key={link.route}
-                    className={`transition-all duration-300  border-2 hover:border-red-900 hover:bg-red-500 hover:shadow-slate-600 hover:shadow-inner hover:text-white w-full rounded-xl flex items-center justify-center  group ${
+                    className={`transition-all duration-300 hover:border-white  border-2  hover:bg-red-500 hover:shadow-slate-900  hover:text-white w-full rounded-xl flex items-center justify-center  group ${
                       isActive
-                        ? "bg-red-500 border-2 shadow-slate-600 shadow-inner border-red-900 text-white"
+                        ? "bg-red-500 border-2 shadow-red-900 shadow-inner border-white text-white"
                         : ""
                     }`}
                   >
