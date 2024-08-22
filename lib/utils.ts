@@ -1,9 +1,8 @@
 /* eslint-disable prefer-const */
 /* eslint-disable no-prototype-builtins */
 import { type ClassValue, clsx } from "clsx";
-import { twMerge } from "tailwind-merge";
-
 const qs = require("qs");
+import { twMerge } from "tailwind-merge";
 
 import { aspectRatioOptions } from "@/constants";
 
@@ -133,7 +132,7 @@ export const download = (url: string, filename: string) => {
 
 // DEEP MERGE OBJECTS
 export const deepMergeObjects = (obj1: any, obj2: any) => {
-  if(obj2 === null || obj2 === undefined) {
+  if (obj2 === null || obj2 === undefined) {
     return obj1;
   }
 
